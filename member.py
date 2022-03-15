@@ -7,4 +7,3 @@ async def on_member_join(member):
 async def on_member_remove(member):
     channel=bot.get_channel(953135766974894120)
     await channel.send(f"{member}沒差啊我才不稀罕要滾就滾")
-    print(f"{member}沒差啊我才不稀罕要滾就滾")
